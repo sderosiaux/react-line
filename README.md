@@ -2,12 +2,15 @@
 
 Provide a React component to draw a line
 
+Underneath, it's only using a classic `<div>` that it rotates and positions
+where it needs to be.
+
 # Props
 
 You need provide 4 coordinates to draw a line which are the props of the
 component :
 
-```
+```javascript
 static propTypes = {
   from: React.PropTypes.shape({
     x: React.PropTypes.number.isRequired,
@@ -26,7 +29,7 @@ The default is `1px solid black`.
 
 # Example
 
-```
+```javascript
 <Line
   from={{x: 10, y: 20}}
   to={{x: 10, y: 100}}
@@ -36,4 +39,4 @@ The default is `1px solid black`.
 
 An octogon :
 
-![An octogon using react-line](https://raw.github.com/chtefi/react-line/master/octogon.png)
+![An octogon using react-line](https://raw.githubusercontent.com/chtefi/react-line/master/octogon.PNG)
