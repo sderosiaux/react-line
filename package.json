@@ -1,0 +1,29 @@
+{
+  "name": "react-line",
+  "version": "1.0.0",
+  "description": "Provide a React component to draw a line",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chtefi/react-line.git"
+  },
+  "keywords": [
+    "react",
+    "line",
+    "chart",
+    "dataviz",
+    "link"
+  ],
+  "author": "Stéphane D.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chtefi/react-line/issues"
+  },
+  "homepage": "https://github.com/chtefi/react-line#readme",
+  "dependencies": {
+    "react": "^0.13.3"
+  }
+}
