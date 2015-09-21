@@ -1,11 +1,21 @@
 # react-line
 
-Provide a React component to draw a line
+> Provide a React component to draw a line.
 
 Underneath, it's only using a classic `<div>` that it rotates and positions
 where it needs to be.
 
-# Props
+## Why
+
+Sometimes, you want to draw a line in your page (mostly, a line that is linked to 2 items that can move for instance), not using fancy stuff. A `<div>` is not a fancy stuff but requires some mathematics to handle the position and rotation properly from 2 coordinates.
+
+## Install
+
+```shell
+npm install --save react-line
+```
+
+## Props
 
 You need provide 4 coordinates to draw a line which are the props of the
 component :
@@ -27,7 +37,7 @@ static propTypes = {
 `style` is optional and is the css style you want to apply on the line.
 The default is `1px solid black`.
 
-# Example
+## Usage
 
 ```javascript
 <Line
