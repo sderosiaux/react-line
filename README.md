@@ -17,7 +17,7 @@ npm install --save react-line
 
 ## Props
 
-You need provide 4 coordinates to draw a line which are the props of the
+You need to provide 4 coordinates to draw a line which are the props of the
 component :
 
 ```javascript
