@@ -1,6 +1,6 @@
 {
   "name": "react-line",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Provide a React component to draw a line",
   "main": "index.js",
   "scripts": {
