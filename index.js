@@ -12,7 +12,7 @@ export default class Line extends React.Component {
       y: React.PropTypes.number.isRequired,
     }),
     style: React.PropTypes.string
-  }
+  };
 
   render() {
     let from = this.props.from;
